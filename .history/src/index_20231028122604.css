@@ -1,0 +1,21 @@
+:root {
+  --sell-size: 64px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: calc(var(--sell-size) * 8);
+  height: calc(var(--sell-size) * 8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: var(--sell-size);
+}

@@ -1,0 +1,26 @@
+:root {
+  --sell-size: 64px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.board{
+  display: flex;
+  width: calc(var(--sell-size) * 8);
+  height: calc(var(--sell-size) * 8);
+  flex-wrap: wrap;
+  
+}
+
+.cell {
+  width: var(--sell-size);
+}
